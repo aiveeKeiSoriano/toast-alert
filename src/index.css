@@ -27,9 +27,6 @@ button {
   padding: .5em 1em;
 }
 
-.hidden {
-  display: none;
-}
 
 .toast {
   position: absolute;
@@ -38,4 +35,13 @@ button {
   padding: .5em 1em;
   color: white;
   background-color: black;
+  display: flex;
+}
+
+.error {
+  background-color: #EB4748;
+}
+
+.hidden {
+  display: none;
 }

@@ -21,21 +21,29 @@
   padding: 2em;
   display: flex;
   gap: 1em;
+  background-color: white;
+  border-radius: 5px;
 }
 
 button {
-  padding: .5em 1em;
+  padding: .8em 1em;
+  background-color: #ebebeb;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 
 .toast {
   position: absolute;
-  top: 0;
+  top: 2px;
   text-align: center;
   padding: .5em 1em;
   color: white;
   background-color: black;
   display: flex;
+  border-radius: 5px;
+  cursor: default;
 }
 
 .error {
